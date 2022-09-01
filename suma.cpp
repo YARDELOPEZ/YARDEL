@@ -2,8 +2,11 @@
 using namespace std;
 int main ()
 {
-        cout<<endl<<endl;
-        cout<<"HOLA MUNDO SOY YARDEL";
-        cout<<endl<<endl;
-        return (0);
+        float x,y,z;
+	cout<<"Ingrese 2 numero x y:";
+	cin>>x>>y;
+	z=x+y;
+	cout<<"El resultado es :";
+	cout<<z<<endl;
+return 0;
 }
